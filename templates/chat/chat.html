@@ -1,8 +1,8 @@
 {% extends 'chat/index.html' %}
 {% block body %}
-<nav class="lighten-3" style="background-color: gray">
+<nav class="lighten-3" style="background-color: pink">
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo">Chat</a>
+      <a href="#" class="brand-logo">Public Chat</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="">{{ request.user.username }}</a></li>
           <li><a href="{% url 'logout' %}"><i class="material-icons">power_settings_new</i></a></li>
