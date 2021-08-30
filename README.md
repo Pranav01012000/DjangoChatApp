@@ -1,7 +1,7 @@
 Django-Chat-App
 ===============
 
-This repo contains Django code for chat application.
+This repo contains Django code for chat web application. The user can register to the web application with simple user interface and then they can commuunicate with other users on the app.
 
 
 Requirements
